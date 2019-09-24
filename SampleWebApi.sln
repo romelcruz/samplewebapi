@@ -3,9 +3,43 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29306.81
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleWebApi", "SampleWebApi\SampleWebApi.csproj", "{37321ACA-3BAE-4261-ABAF-E8B8363E942F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SampleWebApi", "SampleWebApi\SampleWebApi.csproj", "{37321ACA-3BAE-4261-ABAF-E8B8363E942F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sampleWebApiTest", "sampleWebApiTest\sampleWebApiTest.csproj", "{32FBADB0-6A33-4791-868C-EF9C62236CFC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "sampleWebApiTest", "sampleWebApiTest\sampleWebApiTest.csproj", "{32FBADB0-6A33-4791-868C-EF9C62236CFC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AngularWebUI", "AngularWebUI", "{C9DCAF08-2B30-4153-BE10-06EF7697201C}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\Desktop\angular training\angularFE.html = ..\..\..\Desktop\angular training\angularFE.html
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "css", "css", "{EDE3DF69-C6B3-4E86-8E20-D6237EE03A6C}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\Desktop\angular training\css\bootstrap-grid.css = ..\..\..\Desktop\angular training\css\bootstrap-grid.css
+		..\..\..\Desktop\angular training\css\bootstrap-grid.css.map = ..\..\..\Desktop\angular training\css\bootstrap-grid.css.map
+		..\..\..\Desktop\angular training\css\bootstrap-grid.min.css = ..\..\..\Desktop\angular training\css\bootstrap-grid.min.css
+		..\..\..\Desktop\angular training\css\bootstrap-grid.min.css.map = ..\..\..\Desktop\angular training\css\bootstrap-grid.min.css.map
+		..\..\..\Desktop\angular training\css\bootstrap-reboot.css = ..\..\..\Desktop\angular training\css\bootstrap-reboot.css
+		..\..\..\Desktop\angular training\css\bootstrap-reboot.css.map = ..\..\..\Desktop\angular training\css\bootstrap-reboot.css.map
+		..\..\..\Desktop\angular training\css\bootstrap-reboot.min.css = ..\..\..\Desktop\angular training\css\bootstrap-reboot.min.css
+		..\..\..\Desktop\angular training\css\bootstrap-reboot.min.css.map = ..\..\..\Desktop\angular training\css\bootstrap-reboot.min.css.map
+		..\..\..\Desktop\angular training\css\bootstrap.css = ..\..\..\Desktop\angular training\css\bootstrap.css
+		..\..\..\Desktop\angular training\css\bootstrap.css.map = ..\..\..\Desktop\angular training\css\bootstrap.css.map
+		..\..\..\Desktop\angular training\css\bootstrap.min.css = ..\..\..\Desktop\angular training\css\bootstrap.min.css
+		..\..\..\Desktop\angular training\css\bootstrap.min.css.map = ..\..\..\Desktop\angular training\css\bootstrap.min.css.map
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "js", "js", "{81A654FC-E169-4D3C-8C66-12BB5806350D}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\Desktop\angular training\js\bootstrap.bundle.js = ..\..\..\Desktop\angular training\js\bootstrap.bundle.js
+		..\..\..\Desktop\angular training\js\bootstrap.bundle.js.map = ..\..\..\Desktop\angular training\js\bootstrap.bundle.js.map
+		..\..\..\Desktop\angular training\js\bootstrap.bundle.min.js = ..\..\..\Desktop\angular training\js\bootstrap.bundle.min.js
+		..\..\..\Desktop\angular training\js\bootstrap.bundle.min.js.map = ..\..\..\Desktop\angular training\js\bootstrap.bundle.min.js.map
+		..\..\..\Desktop\angular training\js\bootstrap.js = ..\..\..\Desktop\angular training\js\bootstrap.js
+		..\..\..\Desktop\angular training\js\bootstrap.js.map = ..\..\..\Desktop\angular training\js\bootstrap.js.map
+		..\..\..\Desktop\angular training\js\bootstrap.min.js = ..\..\..\Desktop\angular training\js\bootstrap.min.js
+		..\..\..\Desktop\angular training\js\bootstrap.min.js.map = ..\..\..\Desktop\angular training\js\bootstrap.min.js.map
+		..\..\..\Desktop\angular training\js\jquery.min.js = ..\..\..\Desktop\angular training\js\jquery.min.js
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -24,6 +58,10 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{EDE3DF69-C6B3-4E86-8E20-D6237EE03A6C} = {C9DCAF08-2B30-4153-BE10-06EF7697201C}
+		{81A654FC-E169-4D3C-8C66-12BB5806350D} = {C9DCAF08-2B30-4153-BE10-06EF7697201C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5D5983C3-42B0-4A62-A103-0B7DBBA75136}
