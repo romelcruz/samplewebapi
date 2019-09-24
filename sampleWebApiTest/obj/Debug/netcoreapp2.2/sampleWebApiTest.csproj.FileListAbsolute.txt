@@ -1,0 +1,17 @@
+C:\Users\Romel\source\repos\SampleWebApi\sampleWebApiTest\bin\Debug\netcoreapp2.2\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+C:\Users\Romel\source\repos\SampleWebApi\sampleWebApiTest\bin\Debug\netcoreapp2.2\xunit.runner.reporters.netcoreapp10.dll
+C:\Users\Romel\source\repos\SampleWebApi\sampleWebApiTest\bin\Debug\netcoreapp2.2\xunit.runner.utility.netcoreapp10.dll
+C:\Users\Romel\source\repos\SampleWebApi\sampleWebApiTest\bin\Debug\netcoreapp2.2\sampleWebApiTest.deps.json
+C:\Users\Romel\source\repos\SampleWebApi\sampleWebApiTest\bin\Debug\netcoreapp2.2\sampleWebApiTest.runtimeconfig.json
+C:\Users\Romel\source\repos\SampleWebApi\sampleWebApiTest\bin\Debug\netcoreapp2.2\sampleWebApiTest.runtimeconfig.dev.json
+C:\Users\Romel\source\repos\SampleWebApi\sampleWebApiTest\bin\Debug\netcoreapp2.2\sampleWebApiTest.dll
+C:\Users\Romel\source\repos\SampleWebApi\sampleWebApiTest\bin\Debug\netcoreapp2.2\SampleWebApi.dll
+C:\Users\Romel\source\repos\SampleWebApi\sampleWebApiTest\bin\Debug\netcoreapp2.2\SampleWebApi.pdb
+C:\Users\Romel\source\repos\SampleWebApi\sampleWebApiTest\obj\Debug\netcoreapp2.2\sampleWebApiTest.csprojAssemblyReference.cache
+C:\Users\Romel\source\repos\SampleWebApi\sampleWebApiTest\obj\Debug\netcoreapp2.2\sampleWebApiTest.csproj.CoreCompileInputs.cache
+C:\Users\Romel\source\repos\SampleWebApi\sampleWebApiTest\obj\Debug\netcoreapp2.2\sampleWebApiTest.AssemblyInfoInputs.cache
+C:\Users\Romel\source\repos\SampleWebApi\sampleWebApiTest\obj\Debug\netcoreapp2.2\sampleWebApiTest.AssemblyInfo.cs
+C:\Users\Romel\source\repos\SampleWebApi\sampleWebApiTest\obj\Debug\netcoreapp2.2\sampleWebApiTest.csproj.CopyComplete
+C:\Users\Romel\source\repos\SampleWebApi\sampleWebApiTest\bin\Debug\netcoreapp2.2\sampleWebApiTest.pdb
+C:\Users\Romel\source\repos\SampleWebApi\sampleWebApiTest\obj\Debug\netcoreapp2.2\sampleWebApiTest.dll
+C:\Users\Romel\source\repos\SampleWebApi\sampleWebApiTest\obj\Debug\netcoreapp2.2\sampleWebApiTest.pdb
