@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>
+		Trainings
+	</title>
+
+	<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+
+	<script src="js/jquery.min.js"></script>
+	<script src="js/bootstrap.bundle.min.js"></script>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+
+	<script type="text/javascript">
+		var app = angular.module('postserviceApp', []);
+
+		app.controller('postserviceCtrl', function ($scope, $http) {
+
+			$scope.trainingName = null;
+
+			$scope.startDate = null;
+
+			$scope.endDate = null;
+
+			$scope.lblMsg = null;
+
+			$scope.postdata = function (trainingName, startDate, endDate) {
+
+				var data = {
+		    		trainingName: trainingName,
+		    		startDate: startDate,
+		    		endDate: endDate
+				};
+
+				$http.post('https://localhost:44358/api/trainings', JSON.stringify(data)).then(function (response) {
+				if (response.data)
+					console.log(response);
+					$scope.msg = response.data;
+					$scope.statusval = response.status;
+					$scope.headers = response.headers();
+				},
+				function (response) {
+					console.log(response);
+					$scope.msg = response.data;
+					$scope.statusval = response.status;
+					$scope.headers = response.headers();
+				});
+			};
+		});
+	</script>
+</head>
+<body>
+	<div class="container" ng-app="postserviceApp" ng-controller="postserviceCtrl">
+		<div>
+			<div class="input-group mb-3">
+			  <div class="input-group-prepend">
+			    <span class="input-group-text" id="basic-addon1">Training</span>
+			  </div>
+			  <input ng-model="trainingName" type="text" class="form-control" placeholder="" aria-label="training" aria-describedby="basic-addon1">
+			</div>
+
+			<div class="input-group mb-3">
+			  <div class="input-group-prepend">
+			    <span class="input-group-text" id="basic-addon1">Start Date</span>
+			  </div>
+			  <input ng-model="startDate" type="text" class="form-control" placeholder="" aria-label="start date" aria-describedby="basic-addon1">
+			</div>
+
+			<div class="input-group mb-3">
+			  <div class="input-group-prepend">
+			    <span class="input-group-text" id="basic-addon1">End Date</span>
+			  </div>
+			  <input ng-model="endDate" type="text" class="form-control" placeholder="" aria-label="end date" aria-describedby="basic-addon1">
+			</div>
+
+			<input type="button" value="Send" ng-click="postdata(trainingName, startDate, endDate)" /> <br/><br/>
+		</div>
+		<p>Output Message : {{msg}}</p>
+		<p>Status : {{statusval}}</p>
+		<p>Headers : {{headers}}</p>
+	</div>
+</body>
+
+</html>
